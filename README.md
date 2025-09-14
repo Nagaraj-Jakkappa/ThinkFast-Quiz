@@ -1,4 +1,4 @@
-<img width="1906" height="933" alt="image" src="https://github.com/user-attachments/assets/afb525cf-4023-4071-93cd-0419a809ea92" /># ThinkFast Quiz 🎯
+# ThinkFast Quiz 🎯
 
 ThinkFast is a fun and interactive **quiz application** built with **HTML, CSS, and JavaScript**.  
 It challenges users with multiple-choice questions, adds a countdown timer for excitement, and provides a results summary at the end.  
