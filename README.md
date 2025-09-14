@@ -17,9 +17,13 @@ It challenges users with multiple-choice questions, adds a countdown timer for e
 
 ## 📂 Project Structure
 ThinkFast-Quiz/
+
 │── index.html # Main HTML structure
+
 │── style.css # Styling for quiz UI
+
 │── script.js # Quiz logic and interactions
+
 │── ThinkFast.png # Logo (optional) 
 
 ---
