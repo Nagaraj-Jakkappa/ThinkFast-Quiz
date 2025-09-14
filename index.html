@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkFast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="beep-short" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg" preload="auto"></audio>
+    <audio id="beep-long" src="https://actions.google.com/sounds/v1/alarms/alarm_clock.ogg" preload="auto"></audio>
+
+    <div class="quiz-container" id="quiz">
+
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="ThinkFast.png" alt="Quiz Logo" class="logo">
+            <h1 class="quiz-title">ThinkFast</h1>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-container" id="progress-container"></div>
+        <div id="progress-bar"></div>
+    </div>
+
+    <div id="timer">Time left: <span id="time">15</span>s</div>
+
+    <div class="quiz-header">
+        <h2 id="question">Question text</h2>
+        <ul>
+            <li><button class="answer-btn" data-answer="a" id="a_text"></button></li>
+            <li><button class="answer-btn" data-answer="b" id="b_text"></button></li>
+            <li><button class="answer-btn" data-answer="c" id="c_text"></button></li>
+            <li><button class="answer-btn" data-answer="d" id="d_text"></button></li>
+        </ul>
+    </div>
+
+    <div class="btn-row">
+        <button id="submit">Submit ✅</button>
+        <button id="skip">Skip ⏭️</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
