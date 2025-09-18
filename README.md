@@ -70,8 +70,8 @@ Working on **ThinkFast Quiz** boosted my confidence and gave me hands-on experie
 
    ---
 
-  💡 Author
-  
-👨‍💻 Nagaraj Poojary
+👨‍💻Author
+- Nagaraj
+
 Made with ❤️ and JavaScript.
 
